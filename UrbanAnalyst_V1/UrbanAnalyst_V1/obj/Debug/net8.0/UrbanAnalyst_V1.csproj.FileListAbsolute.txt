@@ -1,0 +1,14 @@
+C:\Users\danie\Desktop\UrbanAnalyst_V1\UrbanAnalyst_V1\UrbanAnalyst_V1\bin\Debug\net8.0\UrbanAnalyst_V1.exe
+C:\Users\danie\Desktop\UrbanAnalyst_V1\UrbanAnalyst_V1\UrbanAnalyst_V1\bin\Debug\net8.0\UrbanAnalyst_V1.deps.json
+C:\Users\danie\Desktop\UrbanAnalyst_V1\UrbanAnalyst_V1\UrbanAnalyst_V1\bin\Debug\net8.0\UrbanAnalyst_V1.runtimeconfig.json
+C:\Users\danie\Desktop\UrbanAnalyst_V1\UrbanAnalyst_V1\UrbanAnalyst_V1\bin\Debug\net8.0\UrbanAnalyst_V1.dll
+C:\Users\danie\Desktop\UrbanAnalyst_V1\UrbanAnalyst_V1\UrbanAnalyst_V1\bin\Debug\net8.0\UrbanAnalyst_V1.pdb
+C:\Users\danie\Desktop\UrbanAnalyst_V1\UrbanAnalyst_V1\UrbanAnalyst_V1\obj\Debug\net8.0\UrbanAnalyst_V1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Desktop\UrbanAnalyst_V1\UrbanAnalyst_V1\UrbanAnalyst_V1\obj\Debug\net8.0\UrbanAnalyst_V1.AssemblyInfoInputs.cache
+C:\Users\danie\Desktop\UrbanAnalyst_V1\UrbanAnalyst_V1\UrbanAnalyst_V1\obj\Debug\net8.0\UrbanAnalyst_V1.AssemblyInfo.cs
+C:\Users\danie\Desktop\UrbanAnalyst_V1\UrbanAnalyst_V1\UrbanAnalyst_V1\obj\Debug\net8.0\UrbanAnalyst_V1.csproj.CoreCompileInputs.cache
+C:\Users\danie\Desktop\UrbanAnalyst_V1\UrbanAnalyst_V1\UrbanAnalyst_V1\obj\Debug\net8.0\UrbanAnalyst_V1.dll
+C:\Users\danie\Desktop\UrbanAnalyst_V1\UrbanAnalyst_V1\UrbanAnalyst_V1\obj\Debug\net8.0\refint\UrbanAnalyst_V1.dll
+C:\Users\danie\Desktop\UrbanAnalyst_V1\UrbanAnalyst_V1\UrbanAnalyst_V1\obj\Debug\net8.0\UrbanAnalyst_V1.pdb
+C:\Users\danie\Desktop\UrbanAnalyst_V1\UrbanAnalyst_V1\UrbanAnalyst_V1\obj\Debug\net8.0\UrbanAnalyst_V1.genruntimeconfig.cache
+C:\Users\danie\Desktop\UrbanAnalyst_V1\UrbanAnalyst_V1\UrbanAnalyst_V1\obj\Debug\net8.0\ref\UrbanAnalyst_V1.dll
