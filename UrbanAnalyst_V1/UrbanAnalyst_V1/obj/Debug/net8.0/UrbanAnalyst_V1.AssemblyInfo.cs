@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UrbanAnalyst_V1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f69635f23e698dc1ac92279490a6b7f6696c1b3f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a997081b71f463534202af284cb27af3bca21f5c")]
 [assembly: System.Reflection.AssemblyProductAttribute("UrbanAnalyst_V1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UrbanAnalyst_V1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
