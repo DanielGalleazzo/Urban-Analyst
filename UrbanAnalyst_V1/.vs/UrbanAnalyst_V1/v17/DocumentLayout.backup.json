@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\danie\\Desktop\\UrbanAnalyst_V1\\UrbanAnalyst_V1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A54614E8-E87E-431B-8577-0491E77B94B0}|UrbanAnalyst_V1\\UrbanAnalyst_V1.csproj|c:\\users\\danie\\desktop\\urbananalyst_v1\\urbananalyst_v1\\urbananalyst_v1\\csvloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A54614E8-E87E-431B-8577-0491E77B94B0}|UrbanAnalyst_V1\\UrbanAnalyst_V1.csproj|solutionrelative:urbananalyst_v1\\csvloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A54614E8-E87E-431B-8577-0491E77B94B0}|UrbanAnalyst_V1\\UrbanAnalyst_V1.csproj|c:\\users\\danie\\desktop\\urbananalyst_v1\\urbananalyst_v1\\urbananalyst_v1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A54614E8-E87E-431B-8577-0491E77B94B0}|UrbanAnalyst_V1\\UrbanAnalyst_V1.csproj|solutionrelative:urbananalyst_v1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A54614E8-E87E-431B-8577-0491E77B94B0}|UrbanAnalyst_V1\\UrbanAnalyst_V1.csproj|c:\\users\\danie\\desktop\\urbananalyst_v1\\urbananalyst_v1\\urbananalyst_v1\\csvloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A54614E8-E87E-431B-8577-0491E77B94B0}|UrbanAnalyst_V1\\UrbanAnalyst_V1.csproj|solutionrelative:urbananalyst_v1\\csvloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A54614E8-E87E-431B-8577-0491E77B94B0}|UrbanAnalyst_V1\\UrbanAnalyst_V1.csproj|c:\\users\\danie\\desktop\\urbananalyst_v1\\urbananalyst_v1\\urbananalyst_v1\\gpspoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,11 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CSVLoader.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Desktop\\UrbanAnalyst_V1\\UrbanAnalyst_V1\\UrbanAnalyst_V1\\CSVLoader.cs",
               "RelativeDocumentMoniker": "UrbanAnalyst_V1\\CSVLoader.cs",
@@ -45,20 +45,20 @@
               "RelativeDocumentMoniker": "UrbanAnalyst_V1\\GpsPoint.cs",
               "ToolTip": "C:\\Users\\danie\\Desktop\\UrbanAnalyst_V1\\UrbanAnalyst_V1\\UrbanAnalyst_V1\\GpsPoint.cs",
               "RelativeToolTip": "UrbanAnalyst_V1\\GpsPoint.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-07T22:06:10.833Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Desktop\\UrbanAnalyst_V1\\UrbanAnalyst_V1\\UrbanAnalyst_V1\\Program.cs",
               "RelativeDocumentMoniker": "UrbanAnalyst_V1\\Program.cs",
-              "ToolTip": "C:\\Users\\danie\\Desktop\\UrbanAnalyst_V1\\UrbanAnalyst_V1\\UrbanAnalyst_V1\\Program.cs",
-              "RelativeToolTip": "UrbanAnalyst_V1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABBAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\UrbanAnalyst_V1\\UrbanAnalyst_V1\\UrbanAnalyst_V1\\Program.cs*",
+              "RelativeToolTip": "UrbanAnalyst_V1\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-07T22:00:35.259Z",
               "EditorCaption": ""

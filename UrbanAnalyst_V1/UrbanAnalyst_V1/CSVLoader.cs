@@ -17,7 +17,7 @@ public class CsvLoader
 
             var point = new GpsPoint
             {
-                Timestamp = DateTime.Parse(cols[0]),
+                Localizacao =cols[0],
                 Latitude = double.Parse(cols[1]),
                 Longitude = double.Parse(cols[2])
             };

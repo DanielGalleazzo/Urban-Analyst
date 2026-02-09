@@ -12,3 +12,4 @@ C:\Users\danie\Desktop\UrbanAnalyst_V1\UrbanAnalyst_V1\UrbanAnalyst_V1\obj\Debug
 C:\Users\danie\Desktop\UrbanAnalyst_V1\UrbanAnalyst_V1\UrbanAnalyst_V1\obj\Debug\net8.0\UrbanAnalyst_V1.pdb
 C:\Users\danie\Desktop\UrbanAnalyst_V1\UrbanAnalyst_V1\UrbanAnalyst_V1\obj\Debug\net8.0\UrbanAnalyst_V1.genruntimeconfig.cache
 C:\Users\danie\Desktop\UrbanAnalyst_V1\UrbanAnalyst_V1\UrbanAnalyst_V1\obj\Debug\net8.0\ref\UrbanAnalyst_V1.dll
+C:\Users\danie\Desktop\UrbanAnalyst_V1\UrbanAnalyst_V1\UrbanAnalyst_V1\obj\Debug\net8.0\UrbanAnalyst_V1.sourcelink.json
