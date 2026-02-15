@@ -5,27 +5,13 @@ class Program
 {
     static async Task Main(string[] args)
     {
-        Console.WriteLine("Digite o nome do local:");
+        Console.WriteLine("Digite o nome do lugar:");
         string nome = Console.ReadLine();
-        Console.WriteLine("Digite a latitude ");
-        string latText = Console.ReadLine();
-        Console.WriteLine("Digite a longitude");
-        string lonText = Console.ReadLine();
+        var (lat, lon) = await LocalizacaoService.BuscarCoordenadasPorNome(nome);
+        Console.WriteLine($"Coordenadas encontradas: {lat}, {lon}");
+        var endereco = await LocalizacaoService.MetodoLocalizador(lat, lon);
+        Console.WriteLine($"Endereço completo:");
+        Console.WriteLine(endereco);
 
-        if (
-            double.TryParse(latText, NumberStyles.Any, CultureInfo.InvariantCulture, out double lat) &&
-            double.TryParse(lonText, NumberStyles.Any, CultureInfo.InvariantCulture, out double lon)
-        )
-        {
-            Console.WriteLine("Buscando localização real...");
-            var lugar = await LocalizacaoService.MetodoLocalizador(lat, lon);
-            Console.WriteLine($"Nome digitado: {nome}");
-            Console.WriteLine($"Local encontrado: {lugar}");
-        }
-        else
-        {
-            Console.WriteLine("Latitude ou longitude inválidas.");
-        }
-        Console.ReadLine();
     }
 }
