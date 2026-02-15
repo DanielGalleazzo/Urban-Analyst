@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Text.Json;
@@ -13,10 +14,10 @@ namespace UrbanAnalyst_V1
         public static async Task<string> MetodoLocalizador(double latitude, double longitude)
         {
             using var client = new HttpClient();
-            client.DefaultRequestHeaders.UserAgent.ParseAdd("MeuAppCSharp/1.0");
-            string url = $"https://nominatim.openstreetmap.org/reverse?format=json&lat={latitude}&lon={longitude}";
+            client.DefaultRequestHeaders.UserAgent.ParseAdd("UrbanAnalyst/1.0");
+            string url =$"https://nominatim.openstreetmap.org/reverse?format=json&lat={latitude.ToString(CultureInfo.InvariantCulture)}&lon={longitude.ToString(CultureInfo.InvariantCulture)}";
             var response = await client.GetStringAsync(url);
-            var result = JsonSerializer.Deserialize<Localizador>(response); 
+            var result = JsonSerializer.Deserialize<Localizador>(response);
             return result?.DisplayName ?? "Local não encontrado";
         }
     }

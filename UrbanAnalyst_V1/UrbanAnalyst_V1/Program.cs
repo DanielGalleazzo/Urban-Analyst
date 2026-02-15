@@ -1,26 +1,31 @@
 ﻿using UrbanAnalyst_V1;
-using UrbanMobilityAnalyzer.Services;
+using System.Globalization;
 
-
-
-class program
+class Program
 {
     static async Task Main(string[] args)
     {
-        var loader = new CsvLoader();
+        Console.WriteLine("Digite o nome do local:");
+        string nome = Console.ReadLine();
+        Console.WriteLine("Digite a latitude ");
+        string latText = Console.ReadLine();
+        Console.WriteLine("Digite a longitude");
+        string lonText = Console.ReadLine();
 
-        var points = loader.Load("C:\\Users\\danie\\Downloads\\CentroFariaV4.csv");
-
-        Console.WriteLine($"Cordenadas carregadas: {points.Count}");
-
-        foreach (var p in points.Take(3))
+        if (
+            double.TryParse(latText, NumberStyles.Any, CultureInfo.InvariantCulture, out double lat) &&
+            double.TryParse(lonText, NumberStyles.Any, CultureInfo.InvariantCulture, out double lon)
+        )
         {
-            Console.WriteLine($"{p.Localizacao} | {p.Latitude} | {p.Longitude}");
-            //var lugar = await LocalizacaoService.MetodoLocalizador(p.Latitude, p.Longitude);
-            Console.WriteLine("-----");
-            Console.WriteLine("Localização das coordenadas");
-           
+            Console.WriteLine("Buscando localização real...");
+            var lugar = await LocalizacaoService.MetodoLocalizador(lat, lon);
+            Console.WriteLine($"Nome digitado: {nome}");
+            Console.WriteLine($"Local encontrado: {lugar}");
         }
-       
+        else
+        {
+            Console.WriteLine("Latitude ou longitude inválidas.");
+        }
+        Console.ReadLine();
     }
 }
